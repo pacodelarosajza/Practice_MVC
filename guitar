@@ -1,0 +1,10 @@
+import { Modelo } from "../models/guitar.model.js";
+
+export const testFlores =() =>{
+    console.log('Si funcina la conexion de  liras ' )
+}
+
+Modelo.create({
+    flor: "Stratocaster",
+    color: " Roja
+})
